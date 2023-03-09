@@ -1,0 +1,186 @@
+.dashboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: #1f1e2f;
+  border-radius: 0.5rem;
+}
+
+.dashboard-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.dashboard-header h1 {
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+.dashboard-header .dropdown-toggle {
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem;
+}
+
+.dashboard-header .dropdown-toggle:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.dashboard-header .dropdown-menu {
+  background-color: #2e2c44;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+.dashboard-header .dropdown-menu a {
+  color: #ffffff;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+.dashboard-header .dropdown-menu a:hover {
+  background-color: #433f61;
+}
+
+.dashboard-header .dropdown-divider {
+  margin: 0.5rem 0;
+}
+
+.dashboard-header .dropdown-menu .logout-btn {
+  color: #ffffff;
+  background-color: #e94b3c;
+  border: none;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.dashboard-header .dropdown-menu .logout-btn:hover {
+  background-color: #d03e2f;
+}
+
+.dashboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: #1f1e2f;
+  border-radius: 0.5rem;
+}
+
+.dashboard-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.dashboard-header h1 {
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+.dashboard-header .dropdown {
+  position: relative;
+}
+
+.dashboard-header .dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 0.3em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+}
+
+.dashboard-header .dropdown-toggle:focus::after {
+  border-top-color: #ffffff;
+}
+
+.dashboard-header button {
+  background-color: #5d52ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.dashboard-header button:hover {
+  background-color: #4338ca;
+}
+
+table {
+  background-color: #2e2c44;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+thead th {
+  background-color: #252439;
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: left;
+  padding: 0.75rem;
+}
+
+tbody td {
+  font-size: 1rem;
+  padding: 0.5rem 0.75rem;
+  vertical-align: middle;
+}
+
+tbody tr:nth-of-type(even) {
+  background-color: #38354f;
+}
+
+tbody tr:hover {
+  background-color: #433f61;
+}
+
+.symbol {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.price {
+  color: #ffffff;
+}
+
+.change {
+  display: flex;
+  align-items: center;
+}
+
+.change .badge {
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+}
+
+.change .badge-success {
+  background-color: #1cd11c;
+}
+
+.change .badge-danger {
+  background-color: #e94b3c;
+}
+
+.change .badge svg {
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+}
